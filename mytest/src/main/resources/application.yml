@@ -1,0 +1,30 @@
+server:
+  port: 80
+mydata: aaaaaaa
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8080
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
+#person:
+#  age: 11
+#  boos: true
+#  birth: 2018/11/11
+#  maps: {k1: v1, k2: 12}
+#  lists:
+#    - abc
+#    - test
+#  dog:
+#    name: my dog
+#    age: 2
+#  lastName: zhangsanaa里斯
+
+

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: kedacom@123
+    url: jdbc:mysql://172.16.251.34:3307/eds
+    driver-class-name: com.mysql.jdbc.Driver
+
+#    schema:
+#      - classpath:mytest.sql
+#    initialization-mode: always
+
+
+
+
+
+
+
